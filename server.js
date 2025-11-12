@@ -8,4 +8,4 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-app.use("/api/route", router);
+app.use("/api", router);
